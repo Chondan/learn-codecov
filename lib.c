@@ -10,5 +10,6 @@ int f1(int a) {
 
 int f2() {
     int a = 1;
-    return a++;
+    int b = 2;
+    return b - a;
 }
